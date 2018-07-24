@@ -1,0 +1,18 @@
+{
+  "states": [
+    "intent_\u0e14\u0e39\u0e23\u0e39\u0e1b\u0e2a\u0e21\u0e38\u0e19\u0e44\u0e1e\u0e23",
+    "intent_\u0e2a\u0e23\u0e23\u0e1e\u0e04\u0e38\u0e13\u0e2a\u0e21\u0e38\u0e19\u0e44\u0e1e\u0e23",
+    "intent_\u0e14\u0e39\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e17\u0e31\u0e48\u0e27\u0e44\u0e1b\u0e02\u0e2d\u0e07\u0e2a\u0e21\u0e38\u0e19\u0e44\u0e1e\u0e23",
+    "intent_\u0e04\u0e49\u0e19\u0e2b\u0e32\u0e2a\u0e21\u0e38\u0e19\u0e44\u0e1e\u0e23\u0e08\u0e32\u0e01\u0e23\u0e39\u0e1b",
+    "intent_\u0e2a\u0e48\u0e07\u0e23\u0e39\u0e1b\u0e20\u0e32\u0e1e",
+    "entity_herb",
+    "slot_herb_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_bot.utter_thankyou",
+    "prev_bot.utter_greeting",
+    "prev_bot.ask.get_photo",
+    "prev_bot.action.search_photo_to_data",
+    "prev_bot.utter.data"
+  ]
+}

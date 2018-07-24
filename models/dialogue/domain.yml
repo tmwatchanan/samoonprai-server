@@ -1,0 +1,39 @@
+action_factory: null
+action_names:
+- bot.utter_thankyou
+- bot.utter_greeting
+- bot.ask.get_photo
+- bot.action.search_photo_to_data
+- bot.utter.data
+actions:
+- bot.utter_thankyou
+- bot.utter_greeting
+- bot.ask.get_photo
+- bot.action.search_photo_to_data
+- bot.utter.data
+config:
+  store_entities_as_slots: true
+entities:
+- herb
+intents:
+- ดูรูปสมุนไพร
+- สรรพคุณสมุนไพร
+- ดูข้อมูลทั่วไปของสมุนไพร
+- ค้นหาสมุนไพรจากรูป
+- ส่งรูปภาพ
+slots:
+  herb:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  bot.action.search_photo_to_data:
+  - text: เดี๋ยวรอสักครู่นะครับ ผมกำลังหาว่าคือสมุนไพรตัวไหน
+  bot.ask.get_photo:
+  - text: ช่วยส่งรูปให้หน่อยได้ไหมครับ ผมจะได้ช่วยดูให้ว่าคืออะไร
+  bot.utter.data:
+  - text: ส่งข้อมูลว่าสมุนไพรคืออะไร สมุนไพรตัวนี้ชื่อว่า ว่านหางจระเข้ ครับ
+  bot.utter_greeting:
+  - text: สวัสดีครับ
+  bot.utter_thankyou:
+  - text: ขอบคุณครับ
+topics: []

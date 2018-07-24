@@ -1,0 +1,9 @@
+https://github.com/Jirayut558/spacymodel/raw/master/spacy-2.1.0.dev1.tar.gz
+https://raw.githubusercontent.com/Jirayut558/spacymodel/master/ay_model.tar.gz
+gunicorn==19.9.0
+deepcut==0.6.1.0
+Flask==1.0.2
+rasa-core==0.9.3
+requests==2.19.1
+tensorflow==1.9.0
+sklearn-crfsuite==0.3.6
